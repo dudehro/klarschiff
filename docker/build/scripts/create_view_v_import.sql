@@ -9,7 +9,7 @@ SELECT	a.latitude
 		,a.statusinformation
 		,a.unterstuetzungen
 		,a.beschreibung
-		,a.foto
+/*		,a.foto */
 		,a.erstellungsdatum
 		,a.letztes_aenderungsdatum
 		,a.aktuelle_zustaendigkeit
@@ -25,7 +25,8 @@ GROUP BY a.latitude
 		,a.statusinformation
 		,a.unterstuetzungen
 		,a.beschreibung
-		,a.foto
+/*      ,a.foto */
 		,a.erstellungsdatum
 		,a.letztes_aenderungsdatum
 		,a.aktuelle_zustaendigkeit
+;
